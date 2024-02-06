@@ -15,14 +15,15 @@ body {
 }
 
 .left-side {
-    width: 500px;
+    width: 35.5844%;
     margin-bottom: 10%;
+    padding-right: 0%;
 }
 
 .left-side img {
     width: 350px;
     margin-bottom: -30px;
-    margin-left: -40px;
+    margin-left: -35px;
 }
 
 .left-side p {

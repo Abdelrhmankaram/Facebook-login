@@ -1,33 +1,33 @@
-container.width(100 %) => 864.8px
+container.width(100 %) => 1232px
 container.height(100 vh)
 
-left-side.width => 500px => (500/864.8)*100 % 
+left-side.width => 500px => (500/1232)*100 % = 40.5844%
 left.side.margin-bottom => 10%
 
-left-side > img.width => 350px => (350/left-side.width)*100 %
-left-side > img.margin-bottom => -30px => -(30/left-side.width)*100 %
-left-side > img.margin-left => -40px => -(40/left-side.width)*100 %
+left-side > img.width => 350px => (350/left-side.width)*100 % = 70%
+left-side > img.margin-bottom => -30px => -(30/left-side.width)*100 % = -6%
+left-side > img.margin-left => -40px => -(40/left-side.width)*100 % = -8%
 
-left-side > p.font-size => 26px => (26/left-side.width)*100 %
-left-side > p.line-height => 32px => (32/left-side.width)*100 %
+left-side > p.font-size => 26px => (26/left-side.width)*100 % = 5.2%
+left-side > p.line-height => 32px => (32/left-side.width)*100 % = 6.4%
 
-right-side.width => 350px => (350/864.8)*100 %
+right-side.width => 350px => (350/864.8)*100 % = 40.4717%
 
-right-side > upper.width => 100 %
-right-side > upper.padding => 15px => (15/right-side > upper.width)*100 %
-right-side > upper.margin-left => 60px => (60/right-side > upper.width)*100 %
+right-side > upper.width => 350px => 100 %
+right-side > upper.padding => 15px => (15/right-side > upper.width)*100 % = 4.2857%
+right-side > upper.margin-left => 60px => (60/right-side > upper.width)*100 % = 17.1428%
 
-right-side > upper > input.width => 100 %
-right-side > upper > input.margin-bottom => 15px => (15/right-side > upper.width)*100 %
-right-side > upper > input.padding => 15px => (15/right-side > upper.width)*100 %
-right-side > upper > input.font-size => 18px => (18/right-side > upper.width)*100 %
+right-side > upper > input.width => 350px => 100 %
+right-side > upper > input.margin-bottom => 15px => (15/right-side > upper.width)*100 % = 4.2857%
+right-side > upper > input.padding => 15px => (15/right-side > upper.width)*100 % = 4.2857%
+right-side > upper > input.font-size => 18px => (18/right-side > upper.width)*100 % = 5.1428%
 
-right-side > upper > button.width 100 %
-right-side > upper > button.margin-bottom => 15px => (15/right-side > upper.width)*100 %
-right-side > upper > button.font-size => 20px => (20/right-side > upper.width)*100 %
-right-side > upper > button.padding => 13px 0px => (13/right-side > upper.width)*100 %
+right-side > upper > button.width => 350px => 100 %
+right-side > upper > button.margin-bottom => 15px => (15/right-side > upper.width)*100 % = 4.2857%
+right-side > upper > button.font-size => 20px => (20/right-side > upper.width)*100 % = 5.7142%
+right-side > upper > button.padding => 13px 0px => (13/right-side > upper.width)*100 % = 3.7142% 0
 
-right-side > upper > a.font-size => 14px => (14/right-side > upper.width)*100 %
+right-side > upper > a.font-size => 14px => (14/right-side > upper.width)*100 % 
 right-side > upper > a.margin-top => 5px => (5/right-side > upper.width)*100 %
 right-side > upper > a.margin-bottom => 20px => (20/right-side > upper.width)*100 %
 
